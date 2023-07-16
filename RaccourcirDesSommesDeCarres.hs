@@ -17,7 +17,7 @@ raccourcir longueurInitiale longueurFinale =
 {- La représentation des listes croissantes d'entiers en jeux
  - sous la forme d'une structure de donnée arborescente permet
  - de faire l'économie de toute répétition de calculs.
- - L'implémentation exaxcte permet de simplifier ces calculs. -}
+ - L'implémentation exacte permet de simplifier ces calculs. -}
 data Arbre = ArbreVide | Arbre Int [Arbre] deriving (Eq)
 
 {- Afin que chaque solution soit représentée de façon lisible
